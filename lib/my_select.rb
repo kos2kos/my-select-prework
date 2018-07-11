@@ -3,7 +3,7 @@ def my_select(arg)
   temp = []
   while i < arg.size 
     if yield(arg[i]) == true
-      temp = temp << yield(arg[i])
+      temp = temp << arg[i]
     end
     i+=1
   end
