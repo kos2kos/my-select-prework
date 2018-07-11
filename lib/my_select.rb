@@ -1,4 +1,4 @@
-def my_select(collection)
+def my_select(arg)
  i = 0 
   temp = []
   while i < arg.size 
